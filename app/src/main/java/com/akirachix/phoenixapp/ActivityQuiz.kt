@@ -20,7 +20,7 @@ class QuizActivity : AppCompatActivity() {
 
         binding.submit.setOnClickListener {
             validateRegistration()
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, ActivityCorrection::class.java)
             startActivity(intent)
 
         }

@@ -29,7 +29,10 @@ class ActivityHome : AppCompatActivity() {
             val intent = Intent(this, ActivitySelection::class.java)
             startActivity(intent)
         }
-
+        binding.btnrafiki.setOnClickListener {
+            val intent = Intent(this, ActivityAskRafiki::class.java)
+            startActivity(intent)
+        }
 
     }
 }

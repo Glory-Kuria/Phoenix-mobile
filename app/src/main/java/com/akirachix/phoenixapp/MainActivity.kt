@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
             val intent=Intent(this,ActivitySignup::class.java)
             startActivity(intent)
         }
+
         binding.btnLogin.setOnClickListener {
             clearError()
             var formError = false

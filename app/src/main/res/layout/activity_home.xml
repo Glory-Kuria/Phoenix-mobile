@@ -17,8 +17,8 @@
             android:id="@+id/homeTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="62dp"
-            android:layout_marginEnd="390dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="344dp"
             android:text="Home"
             app:layout_constraintBottom_toTopOf="@+id/profileTxt"
             app:layout_constraintEnd_toEndOf="parent"
@@ -28,8 +28,8 @@
             android:id="@+id/profileTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="44dp"
-            android:layout_marginEnd="195dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="180dp"
             android:text="Profile"
             app:layout_constraintEnd_toStartOf="@+id/logo"
             app:layout_constraintTop_toBottomOf="@+id/homeTxt" />
@@ -39,7 +39,7 @@
             android:layout_width="61dp"
             android:layout_height="45dp"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="24dp"
             app:layout_constraintEnd_toEndOf="@+id/profileTxt"
             app:layout_constraintHorizontal_bias="0.428"
             app:layout_constraintStart_toStartOf="parent"
@@ -51,11 +51,13 @@
             android:layout_width="145dp"
             android:layout_height="138dp"
             android:layout_marginStart="150dp"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="50dp"
             app:layout_constraintBottom_toBottomOf="@+id/profile"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
             app:layout_constraintStart_toEndOf="@+id/profile"
             app:layout_constraintTop_toTopOf="@+id/homeTxt"
+            app:layout_constraintVertical_bias="1.0"
             app:srcCompat="@drawable/logo" />
 
         <ImageView
@@ -63,9 +65,10 @@
             android:layout_width="157dp"
             android:layout_height="159dp"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="130dp"
             app:layout_constraintEnd_toStartOf="@+id/btnQuiz"
+            app:layout_constraintHorizontal_bias="0.375"
             app:layout_constraintStart_toStartOf="@+id/profile"
             app:layout_constraintTop_toBottomOf="@+id/profile"
             app:srcCompat="@drawable/videos" />
@@ -75,10 +78,11 @@
             android:layout_width="152dp"
             android:layout_height="118dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="24dp"
             app:layout_constraintBottom_toBottomOf="@+id/video"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/video"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/quiz" />
 
         <ImageView
@@ -89,16 +93,18 @@
             android:layout_marginBottom="32dp"
             app:layout_constraintBottom_toBottomOf="@+id/notes"
             app:layout_constraintEnd_toEndOf="@+id/video"
+            app:layout_constraintHorizontal_bias="0.2"
             app:layout_constraintStart_toStartOf="@+id/video"
             app:layout_constraintTop_toTopOf="@+id/notes"
+            app:layout_constraintVertical_bias="0.03"
             app:srcCompat="@drawable/dashboard" />
 
         <ImageView
             android:id="@+id/notes"
             android:layout_width="152dp"
             android:layout_height="125dp"
-            android:layout_marginTop="52dp"
-            android:layout_marginEnd="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnQuiz"
             app:srcCompat="@drawable/notes" />
@@ -150,7 +156,7 @@
             android:id="@+id/chatbot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dashboard"

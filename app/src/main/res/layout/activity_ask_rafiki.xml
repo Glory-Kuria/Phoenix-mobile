@@ -6,16 +6,69 @@
     android:layout_height="match_parent"
     tools:context=".ActivityAskRafiki">
 
+    <ImageView
+        android:id="@+id/ivHome4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/ivBoard4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivHome4"
+        app:layout_constraintStart_toEndOf="@+id/ivHome4"
+        app:layout_constraintTop_toTopOf="@+id/ivHome4"
+        app:srcCompat="@drawable/medal" />
+
+    <ImageView
+        android:id="@+id/ivProfile4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivBoard4"
+        app:layout_constraintStart_toEndOf="@+id/ivBoard4"
+        app:layout_constraintTop_toTopOf="@+id/ivBoard4"
+        app:srcCompat="@drawable/users" />
+
+    <ImageView
+        android:id="@+id/ivVideo4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivProfile4"
+        app:layout_constraintStart_toEndOf="@+id/ivProfile4"
+        app:layout_constraintTop_toTopOf="@+id/ivProfile4"
+        app:srcCompat="@drawable/video" />
+
+    <ImageView
+        android:id="@+id/ivChatbot4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ivVideo4"
+        app:srcCompat="@drawable/chatbot" />
+
     <TextView
         android:id="@+id/tvSentence1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="68dp"
         android:text="Are you stuck or curious"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,6 +81,7 @@
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/tvSentence1"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/tvSentence1"
         app:layout_constraintTop_toBottomOf="@+id/tvSentence1" />
 
@@ -37,7 +91,7 @@
         android:layout_height="72dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -47,7 +101,7 @@
             android:id="@+id/etAnswer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Answer"/>
+            android:hint="Answer" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -55,12 +109,12 @@
         android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="88dp"
         android:text="Ask Rafiki"
         android:textColorLink="#08B1A1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
-        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout"
         app:rippleColor="#009963" />
 

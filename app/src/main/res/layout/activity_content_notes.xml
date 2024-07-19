@@ -30,14 +30,14 @@
         app:layout_constraintTop_toBottomOf="@+id/ivCarbonCycle2" />
 
     <Button
-        android:id="@+id/btnReadMore"
+        android:id="@+id/btnChangeTopic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
-        android:text="Read More"
-        app:layout_constraintEnd_toStartOf="@+id/ivLeft"
+        android:text="Change Topic"
+        app:layout_constraintEnd_toStartOf="@+id/btnReadMore"
         app:layout_constraintStart_toEndOf="@+id/ivRight"
         app:layout_constraintTop_toBottomOf="@+id/tvNotes2" />
 
@@ -52,7 +52,7 @@
         app:srcCompat="@drawable/right" />
 
     <ImageView
-        android:id="@+id/ivLeft"
+        android:id="@+id/btnReadMore"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="24dp"

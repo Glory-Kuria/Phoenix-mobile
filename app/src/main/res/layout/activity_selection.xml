@@ -7,6 +7,59 @@
     android:layout_height="match_parent"
     tools:context=".ActivitySelection">
 
+  <ImageView
+      android:id="@+id/ivHome4"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_marginStart="24dp"
+      android:layout_marginBottom="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/home" />
+
+  <ImageView
+      android:id="@+id/ivBoard4"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_marginStart="24dp"
+      app:layout_constraintBottom_toBottomOf="@+id/ivHome4"
+      app:layout_constraintStart_toEndOf="@+id/ivHome4"
+      app:layout_constraintTop_toTopOf="@+id/ivHome4"
+      app:srcCompat="@drawable/medal" />
+
+  <ImageView
+      android:id="@+id/ivProfile4"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_marginStart="24dp"
+      app:layout_constraintBottom_toBottomOf="@+id/ivBoard4"
+      app:layout_constraintStart_toEndOf="@+id/ivBoard4"
+      app:layout_constraintTop_toTopOf="@+id/ivBoard4"
+      app:srcCompat="@drawable/users" />
+
+  <ImageView
+      android:id="@+id/ivVideo4"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_marginStart="24dp"
+      app:layout_constraintBottom_toBottomOf="@+id/ivProfile4"
+      app:layout_constraintStart_toEndOf="@+id/ivProfile4"
+      app:layout_constraintTop_toTopOf="@+id/ivProfile4"
+      app:srcCompat="@drawable/video" />
+
+  <ImageView
+      android:id="@+id/ivChatbot4"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginStart="13dp"
+      android:layout_marginEnd="32dp"
+      android:layout_marginBottom="12dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/ivVideo4"
+      app:srcCompat="@drawable/chatbot" />
+
   <com.google.android.material.textfield.TextInputLayout
       android:id="@+id/tilSubject"
       android:layout_width="0dp"
@@ -62,7 +115,7 @@
       android:id="@+id/blueOne"
       android:layout_width="142dp"
       android:layout_height="147dp"
-      android:layout_marginTop="92dp"
+      android:layout_marginTop="24dp"
       android:layout_marginEnd="62dp"
       android:layout_marginBottom="42dp"
       app:layout_constraintBottom_toTopOf="@+id/blueTwo"
@@ -77,11 +130,11 @@
       android:layout_width="145dp"
       android:layout_height="187dp"
       android:layout_marginStart="80dp"
-      android:layout_marginTop="32dp"
-      android:layout_marginBottom="37dp"
+      android:layout_marginTop="24dp"
+      android:layout_marginBottom="100dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.607"
+      app:layout_constraintHorizontal_bias="0.575"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/blueOne"
       app:srcCompat="@drawable/blue" />

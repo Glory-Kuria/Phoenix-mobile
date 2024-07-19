@@ -44,7 +44,7 @@
             app:layout_constraintHorizontal_bias="0.428"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/profileTxt"
-            app:srcCompat="@drawable/user" />
+            app:srcCompat="@drawable/users" />
 
         <ImageView
             android:id="@+id/logo"

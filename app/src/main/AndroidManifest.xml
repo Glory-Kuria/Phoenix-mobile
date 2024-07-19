@@ -13,6 +13,18 @@
         android:theme="@style/Theme.PhoenixApp"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityContentVideos"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityContentNotes"
+            android:exported="false" />
+        <activity
+            android:name=".LeaderBoardItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SummaryActivity"
+            android:exported="false" />
+        <activity
             android:name=".ActivityCorrection"
             android:exported="false" />
         <activity
